@@ -18,7 +18,7 @@ Depends:  libgtk-3-0, libappindicator3-1, python,
   libgstreamer0.10-0, gir1.2-gstreamer-0.10, libespeak1,
   gir1.2-gtk-3.0, libgstreamer-plugins-base0.10-0,
   gstreamer0.10-alsa, libpocketsphinx3, pocketsphinx,
-  ${misc:Depends}, libc6
+  ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Desktop vocal control
  PocketVox is both an application and a library written in C
