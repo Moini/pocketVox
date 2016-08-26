@@ -9,7 +9,7 @@ AC_CONFIG_MACRO_DIR(m4)
 
 # autoconf
 AC_INIT([pocketvox],[pocketvox_version])
-AC_CONFIG_MACRO_DIR([build/autotools])
+AC_CONFIG_MACRO_DIR([m4])
 
 AM_INIT_AUTOMAKE
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])

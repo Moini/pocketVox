@@ -1,4 +1,4 @@
-ACLOCAL_AMFLAGS = -I build/autotools
+ACLOCAL_AMFLAGS = -I m4
 DISTCHECK_CONFIGURE_FLAGS = --enable-introspection
 SUBDIRS = data src docs po
 

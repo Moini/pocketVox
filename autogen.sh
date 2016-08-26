@@ -2,5 +2,5 @@
     aclocal
     intltoolize --force
     gtkdocize
-    autoreconf --force --install -I m4
+    autoreconf --force --install
     ./configure --enable-introspection=yes $1
