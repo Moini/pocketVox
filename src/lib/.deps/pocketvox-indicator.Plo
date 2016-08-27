@@ -153,6 +153,7 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/glib-2.0/gio/gdatagrambased.h \
  /usr/include/glib-2.0/gio/gdatainputstream.h \
  /usr/include/glib-2.0/gio/gdataoutputstream.h \
  /usr/include/glib-2.0/gio/gdbusaddress.h \
@@ -168,6 +169,9 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/glib-2.0/gio/gdbusserver.h \
  /usr/include/glib-2.0/gio/gdbusutils.h \
  /usr/include/glib-2.0/gio/gdrive.h \
+ /usr/include/glib-2.0/gio/gdtlsclientconnection.h \
+ /usr/include/glib-2.0/gio/gdtlsconnection.h \
+ /usr/include/glib-2.0/gio/gdtlsserverconnection.h \
  /usr/include/glib-2.0/gio/gemblemedicon.h \
  /usr/include/glib-2.0/gio/gicon.h /usr/include/glib-2.0/gio/gemblem.h \
  /usr/include/glib-2.0/gio/gfileattribute.h \
@@ -301,6 +305,9 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/gtk-3.0/gdk/gdkevents.h /usr/include/gtk-3.0/gdk/gdkdnd.h \
  /usr/include/gtk-3.0/gdk/gdkdevice.h \
  /usr/include/gtk-3.0/gdk/gdkdevicemanager.h \
+ /usr/include/gtk-3.0/gdk/gdkseat.h /usr/include/gtk-3.0/gdk/gdkwindow.h \
+ /usr/include/gtk-3.0/gdk/gdkframeclock.h \
+ /usr/include/gtk-3.0/gdk/gdkframetimings.h \
  /usr/include/gtk-3.0/gdk/gdkcairo.h \
  /usr/include/gtk-3.0/gdk/deprecated/gdkcolor.h \
  /usr/include/gtk-3.0/gdk/gdkrgba.h /usr/include/gtk-3.0/gdk/gdkpixbuf.h \
@@ -318,8 +325,6 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/gtk-3.0/gdk/gdkcursor.h \
  /usr/include/gtk-3.0/gdk/gdkdisplaymanager.h \
  /usr/include/gtk-3.0/gdk/gdkenumtypes.h \
- /usr/include/gtk-3.0/gdk/gdkframeclock.h \
- /usr/include/gtk-3.0/gdk/gdkframetimings.h \
  /usr/include/gtk-3.0/gdk/gdkglcontext.h \
  /usr/include/gtk-3.0/gdk/gdkkeys.h /usr/include/gtk-3.0/gdk/gdkkeysyms.h \
  /usr/include/gtk-3.0/gdk/gdkmain.h /usr/include/gtk-3.0/gdk/gdkpango.h \
@@ -327,7 +332,6 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/gtk-3.0/gdk/gdkrectangle.h \
  /usr/include/gtk-3.0/gdk/gdkselection.h \
  /usr/include/gtk-3.0/gdk/gdktestutils.h \
- /usr/include/gtk-3.0/gdk/gdkwindow.h \
  /usr/include/gtk-3.0/gdk/gdkthreads.h \
  /usr/include/gtk-3.0/gdk/gdkvisual.h \
  /usr/include/gtk-3.0/gdk/gdk-autocleanup.h \
@@ -409,6 +413,7 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/gtk-3.0/gtk/gtktreemodelfilter.h \
  /usr/include/gtk-3.0/gtk/gtkimage.h \
  /usr/include/gtk-3.0/gtk/gtkapplicationwindow.h \
+ /usr/include/gtk-3.0/gtk/gtkshortcutswindow.h \
  /usr/include/gtk-3.0/gtk/gtkaspectframe.h \
  /usr/include/gtk-3.0/gtk/gtkframe.h \
  /usr/include/gtk-3.0/gtk/gtkassistant.h \
@@ -444,6 +449,7 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/gtk-3.0/gtk/gtkcssprovider.h \
  /usr/include/gtk-3.0/gtk/gtkcsssection.h \
  /usr/include/gtk-3.0/gtk/gtkdebug.h \
+ /usr/include/gtk-3.0/gtk/gtkdragsource.h \
  /usr/include/gtk-3.0/gtk/gtkdrawingarea.h \
  /usr/include/gtk-3.0/gtk/gtkeventbox.h \
  /usr/include/gtk-3.0/gtk/gtkeventcontroller.h \
@@ -453,6 +459,8 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/gtk-3.0/gtk/gtkfilefilter.h \
  /usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h \
  /usr/include/gtk-3.0/gtk/gtkfilechooserdialog.h \
+ /usr/include/gtk-3.0/gtk/gtkfilechoosernative.h \
+ /usr/include/gtk-3.0/gtk/gtknativedialog.h \
  /usr/include/gtk-3.0/gtk/gtkfilechooserwidget.h \
  /usr/include/gtk-3.0/gtk/gtkflowbox.h \
  /usr/include/gtk-3.0/gtk/gtkfontbutton.h \
@@ -536,6 +544,9 @@ pocketvox-indicator.lo: pocketvox-indicator.c /usr/include/stdc-predef.h \
  /usr/include/gtk-3.0/gtk/gtkseparatormenuitem.h \
  /usr/include/gtk-3.0/gtk/gtkseparatortoolitem.h \
  /usr/include/gtk-3.0/gtk/gtksettings.h \
+ /usr/include/gtk-3.0/gtk/gtkshortcutsgroup.h \
+ /usr/include/gtk-3.0/gtk/gtkshortcutssection.h \
+ /usr/include/gtk-3.0/gtk/gtkshortcutsshortcut.h \
  /usr/include/gtk-3.0/gtk/gtkshow.h \
  /usr/include/gtk-3.0/gtk/gtkstacksidebar.h \
  /usr/include/gtk-3.0/gtk/gtkstack.h \
@@ -974,6 +985,8 @@ pocketvox-types.h:
 
 /usr/include/getopt.h:
 
+/usr/include/glib-2.0/gio/gdatagrambased.h:
+
 /usr/include/glib-2.0/gio/gdatainputstream.h:
 
 /usr/include/glib-2.0/gio/gdataoutputstream.h:
@@ -1003,6 +1016,12 @@ pocketvox-types.h:
 /usr/include/glib-2.0/gio/gdbusutils.h:
 
 /usr/include/glib-2.0/gio/gdrive.h:
+
+/usr/include/glib-2.0/gio/gdtlsclientconnection.h:
+
+/usr/include/glib-2.0/gio/gdtlsconnection.h:
+
+/usr/include/glib-2.0/gio/gdtlsserverconnection.h:
 
 /usr/include/glib-2.0/gio/gemblemedicon.h:
 
@@ -1294,6 +1313,14 @@ pocketvox-types.h:
 
 /usr/include/gtk-3.0/gdk/gdkdevicemanager.h:
 
+/usr/include/gtk-3.0/gdk/gdkseat.h:
+
+/usr/include/gtk-3.0/gdk/gdkwindow.h:
+
+/usr/include/gtk-3.0/gdk/gdkframeclock.h:
+
+/usr/include/gtk-3.0/gdk/gdkframetimings.h:
+
 /usr/include/gtk-3.0/gdk/gdkcairo.h:
 
 /usr/include/gtk-3.0/gdk/deprecated/gdkcolor.h:
@@ -1330,10 +1357,6 @@ pocketvox-types.h:
 
 /usr/include/gtk-3.0/gdk/gdkenumtypes.h:
 
-/usr/include/gtk-3.0/gdk/gdkframeclock.h:
-
-/usr/include/gtk-3.0/gdk/gdkframetimings.h:
-
 /usr/include/gtk-3.0/gdk/gdkglcontext.h:
 
 /usr/include/gtk-3.0/gdk/gdkkeys.h:
@@ -1351,8 +1374,6 @@ pocketvox-types.h:
 /usr/include/gtk-3.0/gdk/gdkselection.h:
 
 /usr/include/gtk-3.0/gdk/gdktestutils.h:
-
-/usr/include/gtk-3.0/gdk/gdkwindow.h:
 
 /usr/include/gtk-3.0/gdk/gdkthreads.h:
 
@@ -1528,6 +1549,8 @@ pocketvox-types.h:
 
 /usr/include/gtk-3.0/gtk/gtkapplicationwindow.h:
 
+/usr/include/gtk-3.0/gtk/gtkshortcutswindow.h:
+
 /usr/include/gtk-3.0/gtk/gtkaspectframe.h:
 
 /usr/include/gtk-3.0/gtk/gtkframe.h:
@@ -1598,6 +1621,8 @@ pocketvox-types.h:
 
 /usr/include/gtk-3.0/gtk/gtkdebug.h:
 
+/usr/include/gtk-3.0/gtk/gtkdragsource.h:
+
 /usr/include/gtk-3.0/gtk/gtkdrawingarea.h:
 
 /usr/include/gtk-3.0/gtk/gtkeventbox.h:
@@ -1615,6 +1640,10 @@ pocketvox-types.h:
 /usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:
 
 /usr/include/gtk-3.0/gtk/gtkfilechooserdialog.h:
+
+/usr/include/gtk-3.0/gtk/gtkfilechoosernative.h:
+
+/usr/include/gtk-3.0/gtk/gtknativedialog.h:
 
 /usr/include/gtk-3.0/gtk/gtkfilechooserwidget.h:
 
@@ -1785,6 +1814,12 @@ pocketvox-types.h:
 /usr/include/gtk-3.0/gtk/gtkseparatortoolitem.h:
 
 /usr/include/gtk-3.0/gtk/gtksettings.h:
+
+/usr/include/gtk-3.0/gtk/gtkshortcutsgroup.h:
+
+/usr/include/gtk-3.0/gtk/gtkshortcutssection.h:
+
+/usr/include/gtk-3.0/gtk/gtkshortcutsshortcut.h:
 
 /usr/include/gtk-3.0/gtk/gtkshow.h:
 
